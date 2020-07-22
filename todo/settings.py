@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zw4=re8(%rh!$*@%2i^4&y-kdn586h$e#11(j@byg23%scpyhi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['harshit-restapi.herokuapp.com','127.0.0.1']
 
 
 # Application definition
